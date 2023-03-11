@@ -22,6 +22,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 - NextJS
 - TailwindCSS
+- Typescript
 
 ## Desktop View
 
