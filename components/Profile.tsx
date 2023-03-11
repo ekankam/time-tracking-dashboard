@@ -30,8 +30,8 @@ export default function Profile({ className, onFilter, timeframe }: ProfileProps
           <Image src={profilePic} alt="Jeremy Robson's profile picture" priority fill />
         </div>
         <div>
-          <span className="text-15 text-c-pale-blue font-normal">Report for</span>
-          <h1 className="font-light text-24 text-white lg:text-40">Jeremy Robson</h1>
+          <span className="font-normal text-15 text-c-pale-blue">Report for</span>
+          <h1 className="font-light text-white text-24 lg:text-40">Jeremy Robson</h1>
         </div>
       </div>
       <ul className="flex items-center py-6 lg:px-8 lg:pt-[26px] lg:pb-8 lg:flex-col lg:gap-[21px]">

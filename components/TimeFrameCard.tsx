@@ -1,67 +1,6 @@
 import Image from 'next/image';
 import { EllipsisHorizontalIcon } from '@heroicons/react/24/solid'
-
-import exercise from '../public/images/icon-exercise.svg';
-import play from '../public/images/icon-play.svg';
-import selfCare from '../public/images/icon-self-care.svg';
-import social from '../public/images/icon-social.svg';
-import study from '../public/images/icon-study.svg';
-import work from '../public/images/icon-work.svg';
-
-const images = [
-  {
-    color: 'bg-c-work',
-    svg: work,
-    alt: 'briefcase'
-  },
-  {
-    color: 'bg-c-play',
-    svg: play,
-    alt: 'game controller'
-  },
-  {
-    color: 'bg-c-study',
-    svg: study,
-    alt: 'open book'
-  },
-  {
-    color: 'bg-c-exercise',
-    svg: exercise,
-    alt: 'person runinng'
-  },
-  {
-    color: 'bg-c-social',
-    svg: social,
-    alt: 'message bubble'
-  },
-  {
-    color: 'bg-c-self-care',
-    svg: selfCare,
-    alt: 'heart with a plus in the middle'
-  },
-]
-
-const colors = [
-  {
-    'color': 'hsl(15, 100%, 70%)'
-  },
-  {
-    'color': 'hsl(195, 74%, 62%)'
-  },
-  {
-    'color': 'hsl(348, 100%, 68%)'
-  },
-  {
-    'color': 'hsl(145, 58%, 55%)'
-  },
-  {
-    'color': 'hsl(264, 64%, 52%)'
-  },
-  {
-    'color': 'hsl(43, 84%, 65%)'
-  },
-
-]
+import { images, colors } from '@/utils';
 
 type TimeFrameCardProps = {
   index: number;
